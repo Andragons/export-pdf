@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manajemen Produk Elektronik</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <h1>Daftar Produk Elektronik</h1>
+
+  <form id="product-form">
+    <input type="hidden" id="product-id" />
+    <input type="text" id="product-name" placeholder="Nama Produk" required />
+    <input type="number" id="product-price" placeholder="Harga (Rp)" required />
+    <button type="submit">Simpan Produk</button>
+  </form>
+
+  <ul id="product-list"></ul>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
